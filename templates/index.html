@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>MyServer</title>
+</head>
+<body>
+    <h1>하이욤</h1>
+    <form action="/add" method="get">
+        <input type="text" name="num1">
+        <input type="text" name="num2">
+        <input type="submit" value="전송">
+    </form>
+    <hr>
+    <form action="/label" method="post" enctype="multipart/form-data">
+        <input type="file" name="label">
+        <input type="submit" value="전송">
+    </form>
+    <hr>
+    <form action="/compare" method="post" enctype="multipart/form-data">
+        <input type="file" name="face1">
+        <input type="file" name="face2">
+        <input type="submit" value="전송">
+    </form>
+</body>
+</html>

@@ -1,0 +1,14 @@
+h1 {
+    color: tomato;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+hr {
+    margin: 20px 0;
+    background: skyblue;
+    height: 1px;
+    border: 0;
+}
